@@ -1,0 +1,140 @@
+/*
+ Theme Name:   Camborne School of Mines Trust
+ Theme URI:    https://www.csmtrust.org/
+ Description:  This child theme extends Bricks.
+ Author:       Seadog IT
+ Author URI:   https://www.seadog.it/
+ Template:     bricks
+ Version:      1.0
+ Text Domain:  bricks
+*/
+
+/* # Table of Contents
+  - General
+    - Top Navigation
+    - Tables
+    - Forms
+  - Header
+    - Logo
+    - Menu
+    - Search
+	- Templates
+    - Search
+    - Archive
+    - Post
+	- Elements
+    - Accordion
+    - Post Navigation
+
+
+*/
+
+/* # General
+---------------------------------------------------------------------- */
+a,
+button,
+input,
+select {
+  outline: 0!important;
+}
+
+#brx-content {
+  min-height: calc(100vh - 520px); /* change 520 to footer height + padding */
+}
+
+/* # Header #
+---------------------------------------------------------------------- */
+.scrolling #header-site-section {
+  padding: 8px 0;
+}
+
+/* ## Logo ## */
+.scrolling #header-site-logo img {
+  height: 40px;
+}
+
+/* ## Menu ## */
+#header-site-nav .bricks-nav-menu > li > a {
+  white-space: nowrap;
+}
+
+.scrolling #header-site-menu .bricks-nav-menu a:hover,
+.scrolling #header-site-menu .bricks-nav-menu .current-menu-item a {
+  border-color: 2px solid var(--bricks-color-theme-white);
+}
+
+#header-site-menu #header-site-nav .bricks-mobile-menu-wrapper {
+  padding-top: 32px;
+}
+
+/* ## Search ## */
+#header-site-search .bricks-search-overlay button.close {
+  color: var(--bricks-color-theme-white);
+  right: 48px;
+  top: 48px;
+}
+
+#header-site-search .bricks-search-overlay h2.title {
+  padding-left: 20px;
+  max-width: 600px;
+  width: 100%;
+}
+
+#header-site-search .bricks-search-overlay .bricks-search-form input[type=search] {
+  text-align: left;
+}
+
+#header-site-search .bricks-search-overlay form.bricks-search-form button {
+  background-color: var(--bricks-color-theme-grey-dark);
+  border: 1px solid var(--bricks-color-theme-grey-dark);
+  border-radius: 0 4px 4px 0;
+  color: var(--bricks-color-theme-white);
+  font-size: 48px;
+  height: 100%;
+  padding: 0 8px 0 16px;
+}
+
+/* # Templates #
+---------------------------------------------------------------------- */
+/* ## Search ## */
+#search-results-input form button {
+  border-radius: 0 4px 4px 0;
+}
+
+#search-results-listing .search-results-item:last-child div.search-results-divider {
+  display: none;
+}
+
+/* ## Archive ## */
+/* change category names and styles to match theme */
+.page-id-131 a#latest-news-link,
+.category-featured a.featured,
+.category-example-category a.example-category {
+  font-weight: 600;
+}
+
+/* ## Post ## */
+.post-published-date a {
+  border: none;
+  color: var(--bricks-color-theme-grey-dark);
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+
+/* # Elements
+---------------------------------------------------------------------- */
+/* ## Accordion ## */
+#brxe-jgaxpr .accordion-title-wrapper:first-child {
+  border-top: none!important;
+}
+
+/* ## Post Navigation ## */
+.brxe-post-navigation a {
+  width: 49%;
+}
+
+.brxe-post-navigation a .content,
+.brxe-post-navigation a h5.title {
+  white-space: normal;
+}

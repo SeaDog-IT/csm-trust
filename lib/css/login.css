@@ -1,0 +1,149 @@
+/* Stylesheet: Login Styles
+
+@package	Camborne School of Mines Trust
+@author		Seadog IT
+@link		https://www.seadog.it
+@copyright	Copyright (c) 2024, Seadog IT LTD
+@license	GPL-2.0+ */
+
+/* LOGIN SCREEN */
+body {
+	background: url("https://www.csmtrust.org/wp-content/themes/csm-trust/lib/img/background-login.jpg"); /* 2560 x 1440 */
+  background-attachment: fixed;
+	background-color: #14326e;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	color: #fff;
+	font-size: 16px;
+	font-size: 1rem;
+	font-weight: 300;
+	line-height: 1.5;
+}
+
+.login form {
+	background-color: rgba(255, 255, 255);
+	border: 0;
+  box-shadow: none!important;
+	margin: 0;
+}
+
+:focus {
+	outline: 0;
+}
+
+.login h1 a  {
+	background-color: rgba(255, 255, 255);
+	background-image: url("https://www.csmtrust.org/wp-content/themes/csm-trust/lib/img/logo-login.png"); /* 518 x 272 */
+	background-repeat: no-repeat;
+  background-position: center;
+	background-size: 200px 105px;
+	cursor: default;
+	height: 155px;
+  margin-bottom: 0px;
+  pointer-events: none;
+  width: auto !important;
+}
+
+.login label {
+	color: #000;
+	margin-bottom: 0.5rem;
+}
+
+.login input[type="text"],
+.login input[type="password"],
+.login input[type="text"]:focus,
+.login input[type="password"]:focus {
+	border: 1px solid #e1e1e1;
+	border-radius: 0.25rem;
+	background-color: #fcfcfc;
+	color: #000;
+	font-size: 14px;
+	height: 40px;
+	padding: .375rem .75rem;
+	outline: 0;
+}
+
+.login .button-primary {
+	background-color: #14326e!important;
+	border: none!important;
+	border-radius: 0.25rem;
+	box-shadow: none;
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: 600;
+	height: 40px!important;
+	letter-spacing: 1px;
+	margin-top: 10px;
+	text-shadow: none;
+	text-transform: uppercase;
+	width: 100%;
+}
+
+.login .button-primary:hover {
+	background-color: #3E5B95!important;
+}
+
+.forgetmenot label {
+	letter-spacing: normal;
+	text-transform: none;
+}
+
+.login p,
+.login #nav a,
+.login .wp-core-ui .button, .wp-core-ui .button-secondary,
+.login .wfls-2fa-code-help  {
+	color: #14326e;
+}
+
+.login #nav {
+	background-color: rgba(255, 255, 255);
+	margin: 0;
+	text-align: center;
+	padding: 0 0 24px;
+}
+
+.login #nav a {
+	color: #14326e;
+	font-size: 16px;
+	font-weight: 500;
+	padding: 0 8px;
+}
+
+.login #nav a:hover {
+	color: #3E5B95;
+}
+
+.login .privacy-policy-page-link,
+.login #backtoblog {
+	display: none;
+}
+
+.login .message,
+.login .success,
+.login #login_error {
+  box-shadow: none;
+  color: #000;
+	font-size: 14px;
+  padding: 12px;
+  margin-bottom: 0px;
+}
+
+.login .message {
+	background-color: rgba(225, 234, 234);
+	border-left: 4px solid #14326e;
+}
+
+.login .success {
+	background-color: #ffe4c4;
+	border-left: 4px solid #ff9a21;
+}
+ 
+.login #login_error {
+	background-color: #fbc5c5;
+	border-left: 4px solid #dc3232;
+}
+
+.login #login_error a {
+	color: #000;
+}
